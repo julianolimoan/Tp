@@ -1,0 +1,70 @@
+@font-face 
+{
+  font-family: Onthemove;
+  src: url('onthemove.ttf');
+  src: url('onthemove.eot');
+  src: url('onthemove.svg');
+  src: url('onthemove.woff');
+}
+
+* { 
+  font-family: "Onthemove"; 
+  font-size: 30px;
+}
+
+#entete {
+  background-color: #01B0F0;
+  height: 120px;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 50px;
+  box-shadow: 5px 5px 5px grey;
+}
+#basdepage {
+  background-color: #01B0F0;
+  height: 30px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+}
+
+#uni, #horizontale, #vertical #texture{
+  padding-left:20px;
+  cursor: pointer; 
+}  
+
+#copy {
+  padding-right: 30px;
+  float: right;
+
+}
+
+ul {margin:0;}
+
+#logo{
+
+  display: none;
+  height: 50px;
+  width: 100px;
+}
+
+#corps{
+  height: 400px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px grey;
+}
+#lemenu{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ui-menu {
+  min-height: 47px;
+}
+
+#menu>li {
+  width: 200px;
+  float:left;
+}
+
